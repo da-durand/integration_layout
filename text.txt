@@ -1,0 +1,24 @@
+creation du header:
+	h1
+	row
+	2 cols, pour la sidebard et le reste du header
+	navbar en row et 2 cols, une qui redonne une row pour les menus et une pour l'icone de recherche
+	
+
+Main :
+
+première section :
+	1 titre et une row avec 4 col-6, dans la 2ème col une row, 2 col-6 et une col-12
+	Padding pour les espacements
+
+deuxième section :
+	titre
+	une row avec 2 cols qui contiennent des rows.
+
+troisième section :
+	une row et 2 cols avec un titre
+	une div dans la première col et une row avec 8 col dans la la deuxième
+	
+dernière section:
+	1 titre
+	une row avec des col, les deux dernières possèdent une row.

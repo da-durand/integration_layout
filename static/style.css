@@ -1,0 +1,21 @@
+header {
+  background: black; }
+  header .row {
+    background: #b1b0b0; }
+    header .row a {
+      color: white; }
+    header .row .col-11 {
+      background: #5a5a5a; }
+      header .row .col-11 div {
+        background: #363636; }
+      header .row .col-11 .row .col-6:nth-child(odd) {
+        background: gray; }
+
+main section:nth-child(1) .col-6, main section:nth-child(1) .col-12 {
+  padding: 1em; }
+main section:nth-child(2) .row div:nth-child(1) article:nth-child(odd) {
+  background: gray; }
+main section:nth-child(2) .row div:nth-child(2) article:nth-child(even) {
+  background: gray; }
+
+/*# sourceMappingURL=style.css.map */
