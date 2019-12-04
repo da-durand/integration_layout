@@ -67,14 +67,55 @@ main {
     text-transform: uppercase;
     font-weight: bold;
     color: #e1001a; }
-  main .big-card-container {
-    padding-bottom: .3em; }
-  main .card {
+  main .actuality .underline {
+    background: red;
+    width: 2.5em;
+    padding: .05em;
+    margin: 0 0 1em 0; }
+  main .actuality .big-card-container {
+    padding-bottom: .6em; }
+  main .actuality .green .categorie {
+    color: #96c126;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px; }
+  main .actuality .green .underline {
+    background: #96c126;
+    width: 1.5em; }
+  main .actuality .blue .categorie {
+    color: #26abbf;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px; }
+  main .actuality .blue .underline {
+    background: #26abbf;
+    width: 1.5em; }
+  main .actuality .orange .categorie {
+    color: #ff6e2b;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px; }
+  main .actuality .orange .underline {
+    background: #ff6e2b;
+    width: 1.5em; }
+  main .actuality .card {
     margin: .3em; }
-    main .card h5 {
+    main .actuality .card h5 {
       text-transform: uppercase;
       font-weight: bold; }
-  main .big-card {
+    main .actuality .card p {
+      font-size: 10px; }
+    main .actuality .card .read {
+      color: gray;
+      font-weight: bold;
+      font-size: 12px; }
+  main .actuality .big-card {
     height: 100%; }
+  main .actuality .btn-container .btn {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid gray;
+    border-radius: 0; }
 
 /*# sourceMappingURL=style.css.map */

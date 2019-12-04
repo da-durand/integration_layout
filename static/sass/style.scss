@@ -119,19 +119,90 @@ main{
         color: #e1001a;
     }
 
-    .big-card-container{
-        padding-bottom: .3em;
-    }
+    .actuality{
 
-    .card{
-        margin: .3em;
-        h5{
-            text-transform: uppercase;
-            font-weight: bold;
+        .underline{
+            background: red;
+            width: 2.5em;
+            padding: .05em;
+            margin: 0 0 1em 0;
         }
+    
+        .big-card-container{
+            padding-bottom: .6em;
+        }
+    
+        .green{
+            .categorie{
+                color: #96c126;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 12px;
+
+            }
+            .underline{
+                background: #96c126;
+                width: 1.5em;
+            }
+        }
+    
+        .blue{
+            .categorie{
+                color: #26abbf;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 12px;
+            }
+            .underline{
+                background: #26abbf;
+                width: 1.5em;
+            }
+        }
+    
+        .orange{
+            .categorie{
+                color: #ff6e2b;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 12px;
+            }
+            .underline{
+                background: #ff6e2b;
+                width: 1.5em;
+            }
+        }
+    
+        .card{
+            margin: .3em;
+            h5{
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            p{
+                font-size: 10px;
+            }
+
+            .read{
+                color: gray;
+                font-weight: bold;
+                font-size: 12px;
+            }
+        }
+    
+        .big-card{
+            height: 100%;
+        }
+
+        .btn-container{
+            .btn{
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 14px;
+                border: 1px solid gray;
+                border-radius: 0;
+            }
+        }
+
     }
 
-    .big-card{
-        height: 100%;
-    }
 }
