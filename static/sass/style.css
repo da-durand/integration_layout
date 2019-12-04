@@ -1,23 +1,55 @@
 ul {
   list-style: none;
   padding: 0; }
-  ul li {
+
+.social-bar {
+  background: #e20000; }
+  .social-bar li {
     padding-bottom: 1em; }
-    ul li a {
+    .social-bar li a {
       color: white; }
 
 header {
   background: black; }
-  header .row {
-    background: #b1b0b0; }
-    header .row a {
-      color: white; }
-    header .row .col-11 {
-      background: #5a5a5a; }
-      header .row .col-11 div {
-        background: #363636; }
-      header .row .col-11 .row .col-6:nth-child(odd) {
-        background: gray; }
+  header a {
+    color: black;
+    text-decoration: none; }
+  header nav {
+    background: #efefef; }
+    header nav .menu .choice, header nav .menu .last_choice {
+      padding: .5em 0; }
+      header nav .menu .choice a, header nav .menu .last_choice a {
+        color: white;
+        text-decoration: none; }
+      header nav .menu .choice p, header nav .menu .last_choice p {
+        margin: 0; }
+    header nav .menu .choice:nth-child(1) {
+      background: #97c300; }
+    header nav .menu .choice:nth-child(2) {
+      background: #00adc1; }
+    header nav .menu .choice:nth-child(3) {
+      background: #ff7437; }
+    header nav .menu .last_choice {
+      background: #994dd1; }
+  header .profil {
+    background: white;
+    position: absolute;
+    bottom: 0; }
+    header .profil .fa-user-tie {
+      font-size: 1.5em; }
+    header .profil .fa-users {
+      font-size: 3.5em; }
+    header .profil a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px; }
+    header .profil ul {
+      text-align: left;
+      padding: 0 .2em;
+      margin-bottom: 5em; }
+    header .profil div {
+      background: #f0f0f0;
+      padding: .2em; }
 
 main section:nth-child(1) .col-6, main section:nth-child(1) .col-12 {
   padding: 1em; }
