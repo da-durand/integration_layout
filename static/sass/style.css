@@ -61,11 +61,20 @@ header {
       text-transform: uppercase;
       font-size: 15px; }
 
-main section:nth-child(1) .col-6, main section:nth-child(1) .col-12 {
-  padding: 1em; }
-main section:nth-child(2) .row div:nth-child(1) article:nth-child(odd) {
-  background: gray; }
-main section:nth-child(2) .row div:nth-child(2) article:nth-child(even) {
-  background: gray; }
+main {
+  padding-top: 1em; }
+  main h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e1001a; }
+  main .big-card-container {
+    padding-bottom: .3em; }
+  main .card {
+    margin: .3em; }
+    main .card h5 {
+      text-transform: uppercase;
+      font-weight: bold; }
+  main .big-card {
+    height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
