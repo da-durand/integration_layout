@@ -12,11 +12,11 @@
 </head>
 
 <body>
-    <div class="container p-0 d-flex">
+    <div class="container d-lg-flex">
 
         <!-- RESEAUX SOCIAUX -->
 
-        <div class="social-bar p-3">
+        <div class="social-bar p-3 d-none d-lg-block">
             <ul>
                 <li><a href="#"><i class="fas fa-rss"></i></a></li>
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -35,7 +35,7 @@
 
                     <!-- PROFIL -->
 
-                    <div class="col-2 profil-container">
+                    <div class="col-lg-2 profil-container">
                         <div class="profil text-center">
                             <div class="d-flex p-1 justify-content-between align-items-center">
                                 <div class="title d-flex">
@@ -72,9 +72,13 @@
                         </div>
                     </div>
 
-                    
-                    <div class="col-10">
+                    <!-- NAVBAR -->
+
+                    <div class="col-lg-10">
                         <nav>
+
+                            <!-- COMPTE -->
+
                             <div class="account-bar d-flex justify-content-between p-2">
                                 <div class="login">
                                     <a href="#" class="mr-5"><i class="fas fa-user"></i> Se connecter</a>
@@ -88,47 +92,54 @@
                                     </select>
                                 </div>
                             </div>
+
+                            <!-- MENU -->
+
                             <div class="menu row no no-gutters">
-                                <div class="col-8 row no-gutters">
-                                    <div class="col-4 text-center choice">
+                                <div class="col-lg-8 row no-gutters">
+                                    <div class="col-lg-4 text-center choice">
                                         <a href="#">
                                             <p>Vivre à Mende</p>
                                             <i class="fas fa-angle-down"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 text-center choice">
+                                    <div class="col-lg-4 text-center choice">
                                         <a href="#">
                                             <p>Que faire à Mende ?</p>
                                             <i class="fas fa-angle-down"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 text-center choice">
+                                    <div class="col-lg-4 text-center choice">
                                         <a href="#">
                                             <p>Votre mairie</p>
                                             <i class="fas fa-angle-down"></i>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-4 row no-gutters">
-                                    <div class="col-8 text-center last_choice">
+                                <div class="col-lg-4 row no-gutters">
+                                    <div class="col-lg-8 text-center last_choice">
                                         <a href="#">
                                             <p>Participer</p>
                                             <i class="fas fa-angle-down"></i>
                                         </a>
                                     </div>
-                                    <div class="col-4 text-center d-flex align-items-center justify-content-center">
+                                    <div class="col-lg-4 text-center d-flex align-items-center justify-content-center py-3">
                                         <a href="#"><i class="fas fa-search"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </nav>
+
+                        <!-- L'IMAGE REMPLACE LE BACKGROUND-IMAGE QUI NE FONCTIONNE PAS -->
+
                         <article>
                             <img src="lozere_gorges_chassezac_beyssac-4431287.jpg" alt="" class="mw-100">
                         </article>
+
                     </div>
                 </div>
             </header>
-            <main>
+            <!-- <main>
                 <div class="container-fluid">
                     <section>
                         <h2>Titre</h2>
@@ -268,7 +279,7 @@
                         </div>
                     </section>
                 </div>
-            </main>
+            </main> -->
         </div>
 </body>
 <script src="./node_modules/jquery/dist/jquery.js"></script>
